@@ -1,5 +1,4 @@
 import lotr.King;
-import lotr.Character;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -13,7 +12,7 @@ public class KingTest {
 
     @Test
     public void testIsClass() {
-        assertTrue(character instanceof Character);
+        assertTrue(character instanceof lotr.Character);
     }
 
     @Test
